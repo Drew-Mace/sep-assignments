@@ -1,0 +1,15 @@
+LINE:
+
+1. I used an array to store the members which are made up of people. The people are stored as strings. This makes the addition/removal of people to or from the line easy using the methods that were created.
+
+2. To search for a particular element (person), you would use the search method. To search through the members array use members.search(person), where (person) is equal to the name you are trying to find. If the person is found in the array, it will return the name.
+
+3. The members array could equal a number things. It could used anywhere that a list of people is required. In this case it is a line of people waiting for an amusement ride, or maybe they could be in like for the bank. Disney World uses a similar system for fast pass holders. A guest can submit for a specific ride, they will be placed in a que much like we built here. The que will then return a time for the guest to return to ride so they can avoid the long lines. 
+
+SCREEN:
+
+1. A matrix is created to store the location of the pixels. A matrix is an array within an array that allows us to place elements in a specific location. We used width(x) and length(y) for this matrix. Using the x, y coordinates a developer can pinpoint a specific element and manipulate the data.
+
+2. If a developer wanted to locate a single pixel he/she could use the matrix and x,y coordinates to do so. You would use find along with the known coordinates which would return the element present there.
+
+3. A matrix could be used for storing items in a specific position such as plotting a graph, which would be an edge list. This becomes very handing when you are trying to calculate if items in the graph have relation to each other. 

@@ -3,32 +3,46 @@
 # People may leave the line whenever they see fit and those behind them take their place.
 class Line
   attr_accessor :members
+  attr_accessor :person
 
   def initialize
     self.members = []
+    self.person = ""
   end
 
   def join(person)
+    members.push(person)
   end
 
   def leave(person)
+    members.delete(person)
   end
 
   def front
+    members.first
   end
 
   def middle
+    mid = members.length / 2
+    if mid.even?
+      mid - (members.length - 1)
+    else
+      members[mid]
+    end
   end
 
   def back
+    members.last
   end
 
   def search(person)
+    members.detect { |p| p == person}
   end
 
   private
 
   def index(person)
+    members.each { |person| print person, " "}
   end
 
 end

@@ -24,8 +24,9 @@ class Line
 
   def middle
     mid = members.length / 2
-    if mid.even?
-      mid - (members.length - 1)
+    if mid.odd?
+      mid - members.length - 1
+      members[mid]
     else
       members[mid]
     end

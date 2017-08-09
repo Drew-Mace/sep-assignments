@@ -1,0 +1,7 @@
+1. Spatial locality is when data elements are stored in close storage locations. It is beneficial because the elements are stored next to each other allowing them to be read in sequence with data storage types such as an array. This allows the processor to receive a range of locations to search through meaning it doesn't have to go back and search again in another location, the object will either be in the range given, or it wont. 
+
+2. When running the benchmarks for appending 10,000 items to an array and linked list, the array took .002488 secs while the lL took .005176
+
+  Finding the 5000th element for the array took .000003 secs, while the lL took .000223 secs. 
+  
+  Deleting that same element for the array took .000016 secs, while the lL took .000219 secs. 

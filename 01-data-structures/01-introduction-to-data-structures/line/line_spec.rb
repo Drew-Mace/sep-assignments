@@ -4,7 +4,7 @@ require_relative 'line'
 
 RSpec.describe Line, type: Class do
   let(:line) { Line.new }
-
+# test odd number
   before do
     line.join("Hillary")
     line.join("Bernie")

@@ -12,6 +12,7 @@ RSpec.describe Line, type: Class do
     line.join("Ted")
     line.join("Jeb")
     line.join("Ben")
+    line.join("Drew")
   end
 
   describe "#initialize" do
@@ -28,13 +29,13 @@ RSpec.describe Line, type: Class do
 
   describe "#middle" do
     it "returns the person in the middle of the line" do
-      expect(line.middle).to eq "Ted"
+      expect(line.middle).to eq "Donald"
     end
   end
 
   describe "#back" do
     it "returns the person in the back of the line" do
-      expect(line.back).to eq "Ben"
+      expect(line.back).to eq "Drew"
     end
   end
 

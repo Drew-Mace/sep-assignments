@@ -29,8 +29,10 @@ class HashClass
 
   def [](key)
     i = index(key, size())
-    if @items[i]
+    if @items[i].key == key
       return @items[i].value
+    else 
+      return nil
     end
   end
 

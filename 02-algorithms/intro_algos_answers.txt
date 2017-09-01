@@ -1,0 +1,38 @@
+Paying a jackpot at the casino
+
+if player has jackpot = true
+jackpotAmount = int
+machineLocation = " "
+machineAsset = int
+jackpotType = PPP || bonus || combo
+if jackpotType = bonus || combo
+jackpotCombo = bonus || " "
+else jackpotType = PPP
+
+if player hasn't hit jackpot before = true #need to record player information for the system
+playerSSN = int
+playerDriverLicense = int
+else player.ssn && player.driverLicense = player
+end
+
+What to wear
+
+if haveWorkToday = true
+clothesToWear = workUniform
+else
+clothesToWear = jeans && tee-shirt
+end
+
+When to clean cat box
+
+if catBoxStink = true
+open catbox
+take out bag
+throw in trash
+replace with new bag
+close catbox
+else
+catbox = clean
+end
+
+

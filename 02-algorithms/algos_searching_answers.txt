@@ -1,6 +1,6 @@
 1. It would take 7 iterations to find G.
 
-2. It would only find G on the 4th iteration. 
+2. It would only find G on the 2nd iteration. 
 
 3. fib(10)...fib(12) : 0 = 0
                        1 = 0 + 1 = 1

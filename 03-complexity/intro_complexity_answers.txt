@@ -1,0 +1,14 @@
+1. An algorithm that has O(1) is an X-15 and an algorithm that has O(2ⁿ) is a PZL M-15 Belphegor. 
+    X-15 has top speed of 4,520 mph and PZL has top speed of 124 mph. 
+    
+2. The best scenario for binary search would be if the element you are searching for is the mid point. 
+
+3. Since the array is being split in half with each iteration it gives us a size of (n-1)/2. This means in a worst case we would have 2log²(n-1).
+
+4. In a bounded case we know the fastest the search could ever run would be O(1)(lower bound) meaning our element would be found on the first search. The upper bound would the slowest it could ever run meaning it would have to perform the maximum amount of searches for n elements. The bounded case would fall in between the upper and lower limits, telling us it could never run faster or slower than those limits. 
+
+6. f(n) = n²
+7. O(n)
+10. O(log n)
+11. Ω(log(n))
+12. Θ(log n)

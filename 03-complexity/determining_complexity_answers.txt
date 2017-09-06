@@ -1,0 +1,11 @@
+1. It is always going to execute at a constant rate so its O(1)
+
+2. This will go from one item to the next until if finds the element so it is linear meaning it is O(n).
+
+3. The method is performing two loops, one to find the largest index in one array, and another to find the largest index in a second array. It is doing a linear search on both arrays and the number of iterations increases as n does for both arrays. It is O(log n).
+
+4. If the number happened to be 0 or 1 the algorithm would be constant but since that wont always be the case, it calls itself twice. As n gets larger the time it takes increases exponentially making it O(2ⁿ).
+
+5. This algorithm will continue to loop until i is greater than one less than the input. As n gets up into very high numbers it will take a ton of iterations to finally reach n-1. It will take along time but not enough time to make it unusable. It is O(n²).
+
+6. As n increases in size it starts to a take significant more amount of time to sort. Worst-case grows loglinearly making it O(n log n).

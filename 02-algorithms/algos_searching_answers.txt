@@ -1,6 +1,6 @@
 1. It would take 7 iterations to find G.
 
-2. It would only find G on the first search. 
+2. It would only find G on the 4th iteration. 
 
 3. fib(10)...fib(12) : 0 = 0
                        1 = 0 + 1 = 1
@@ -20,3 +20,10 @@
 4. If the collection was unsorted I believe you would have to use a linear search since the fact that it isn't sorted means that the values would not be in sequence and a binary search wouldnt work. If this was the case I would actually just sort the collection and use a binary search instead. 
 
 5. For a sorted collection given that its a million items a binary search would be much more efficient. Doing a linear search over a million items could potentionally take a very long time. As stated in the anwser above I would just sort the list if it wasn't already sorted, unless the sorting would actually take longer than the linear search in which case you would just have deal with the linear search. 
+
+
+BENCHMARK TESTS
+
+iterative: .002916
+
+recursive: .001101

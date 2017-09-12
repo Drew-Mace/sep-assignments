@@ -1,0 +1,5 @@
+1. O(n log n) because it is still doing the sorting in a slow fashion
+
+2. O(log n). Instead of looping over both arrays, I just combined them and then flattened them into a single array. Then I used merge sort. 
+
+3. I think this will still be O(log n). I am not sure how to improve the Big-O of this since it will always have to perform a loop to get the values of the arrays. I had been thinking of putting it into a tree or heap but the items are just numbers, they have no keys. 
